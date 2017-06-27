@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1355DFFD1F00B50C00E581C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355DFFC1F00B50C00E581C6 /* AppDelegate.swift */; };
+		1355DFFF1F00B50C00E581C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355DFFE1F00B50C00E581C6 /* ViewController.swift */; };
+		1355E0021F00B50C00E581C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1355E0001F00B50C00E581C6 /* Main.storyboard */; };
+		1355E0041F00B50C00E581C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1355E0031F00B50C00E581C6 /* Assets.xcassets */; };
+		1355E0071F00B50C00E581C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1355E0051F00B50C00E581C6 /* LaunchScreen.storyboard */; };
+		1355E0121F00B50C00E581C6 /* DropListDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355E0111F00B50C00E581C6 /* DropListDemoTests.swift */; };
+		1355E01D1F00B50C00E581C6 /* DropListDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355E01C1F00B50C00E581C6 /* DropListDemoUITests.swift */; };
+		1355E06F1F0107C100E581C6 /* DropListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355E06E1F0107C100E581C6 /* DropListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1355E00E1F00B50C00E581C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1355DFF11F00B50C00E581C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1355DFF81F00B50C00E581C6;
+			remoteInfo = DropListDemo;
+		};
+		1355E0191F00B50C00E581C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1355DFF11F00B50C00E581C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1355DFF81F00B50C00E581C6;
+			remoteInfo = DropListDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1355DFF91F00B50C00E581C6 /* DropListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1355DFFC1F00B50C00E581C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1355DFFE1F00B50C00E581C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1355E0011F00B50C00E581C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1355E0031F00B50C00E581C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../DropListDemo/Assets.xcassets; sourceTree = "<group>"; };
+		1355E0061F00B50C00E581C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1355E0081F00B50C00E581C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../DropListDemo/Info.plist; sourceTree = "<group>"; };
+		1355E00D1F00B50C00E581C6 /* DropListDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropListDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1355E0111F00B50C00E581C6 /* DropListDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropListDemoTests.swift; sourceTree = "<group>"; };
+		1355E0131F00B50C00E581C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1355E0181F00B50C00E581C6 /* DropListDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropListDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1355E01C1F00B50C00E581C6 /* DropListDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropListDemoUITests.swift; sourceTree = "<group>"; };
+		1355E01E1F00B50C00E581C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1355E06E1F0107C100E581C6 /* DropListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1355DFF61F00B50C00E581C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1355E00A1F00B50C00E581C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1355E0151F00B50C00E581C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1355DFF01F00B50C00E581C6 = {
+			isa = PBXGroup;
+			children = (
+				1355DFFB1F00B50C00E581C6 /* DropListDemo */,
+				1355E0101F00B50C00E581C6 /* DropListDemoTests */,
+				1355E01B1F00B50C00E581C6 /* DropListDemoUITests */,
+				1355DFFA1F00B50C00E581C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1355DFFA1F00B50C00E581C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1355DFF91F00B50C00E581C6 /* DropListDemo.app */,
+				1355E00D1F00B50C00E581C6 /* DropListDemoTests.xctest */,
+				1355E0181F00B50C00E581C6 /* DropListDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1355DFFB1F00B50C00E581C6 /* DropListDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1355DFFC1F00B50C00E581C6 /* AppDelegate.swift */,
+				1355DFFE1F00B50C00E581C6 /* ViewController.swift */,
+				1355E06D1F01079F00E581C6 /* DropList */,
+			);
+			path = DropListDemo;
+			sourceTree = "<group>";
+		};
+		1355E0101F00B50C00E581C6 /* DropListDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1355E0001F00B50C00E581C6 /* Main.storyboard */,
+				1355E0031F00B50C00E581C6 /* Assets.xcassets */,
+				1355E0051F00B50C00E581C6 /* LaunchScreen.storyboard */,
+				1355E0081F00B50C00E581C6 /* Info.plist */,
+				1355E0111F00B50C00E581C6 /* DropListDemoTests.swift */,
+				1355E0131F00B50C00E581C6 /* Info.plist */,
+			);
+			path = DropListDemoTests;
+			sourceTree = "<group>";
+		};
+		1355E01B1F00B50C00E581C6 /* DropListDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1355E01C1F00B50C00E581C6 /* DropListDemoUITests.swift */,
+				1355E01E1F00B50C00E581C6 /* Info.plist */,
+			);
+			path = DropListDemoUITests;
+			sourceTree = "<group>";
+		};
+		1355E06D1F01079F00E581C6 /* DropList */ = {
+			isa = PBXGroup;
+			children = (
+				1355E06E1F0107C100E581C6 /* DropListView.swift */,
+			);
+			name = DropList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1355DFF81F00B50C00E581C6 /* DropListDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1355E0211F00B50C00E581C6 /* Build configuration list for PBXNativeTarget "DropListDemo" */;
+			buildPhases = (
+				1355DFF51F00B50C00E581C6 /* Sources */,
+				1355DFF61F00B50C00E581C6 /* Frameworks */,
+				1355DFF71F00B50C00E581C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropListDemo;
+			productName = DropListDemo;
+			productReference = 1355DFF91F00B50C00E581C6 /* DropListDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1355E00C1F00B50C00E581C6 /* DropListDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1355E0241F00B50C00E581C6 /* Build configuration list for PBXNativeTarget "DropListDemoTests" */;
+			buildPhases = (
+				1355E0091F00B50C00E581C6 /* Sources */,
+				1355E00A1F00B50C00E581C6 /* Frameworks */,
+				1355E00B1F00B50C00E581C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1355E00F1F00B50C00E581C6 /* PBXTargetDependency */,
+			);
+			name = DropListDemoTests;
+			productName = DropListDemoTests;
+			productReference = 1355E00D1F00B50C00E581C6 /* DropListDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1355E0171F00B50C00E581C6 /* DropListDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1355E0271F00B50C00E581C6 /* Build configuration list for PBXNativeTarget "DropListDemoUITests" */;
+			buildPhases = (
+				1355E0141F00B50C00E581C6 /* Sources */,
+				1355E0151F00B50C00E581C6 /* Frameworks */,
+				1355E0161F00B50C00E581C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1355E01A1F00B50C00E581C6 /* PBXTargetDependency */,
+			);
+			name = DropListDemoUITests;
+			productName = DropListDemoUITests;
+			productReference = 1355E0181F00B50C00E581C6 /* DropListDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1355DFF11F00B50C00E581C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈晓龙";
+				TargetAttributes = {
+					1355DFF81F00B50C00E581C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					1355E00C1F00B50C00E581C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1355DFF81F00B50C00E581C6;
+					};
+					1355E0171F00B50C00E581C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1355DFF81F00B50C00E581C6;
+					};
+				};
+			};
+			buildConfigurationList = 1355DFF41F00B50C00E581C6 /* Build configuration list for PBXProject "DropListDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1355DFF01F00B50C00E581C6;
+			productRefGroup = 1355DFFA1F00B50C00E581C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1355DFF81F00B50C00E581C6 /* DropListDemo */,
+				1355E00C1F00B50C00E581C6 /* DropListDemoTests */,
+				1355E0171F00B50C00E581C6 /* DropListDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1355DFF71F00B50C00E581C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1355E0071F00B50C00E581C6 /* LaunchScreen.storyboard in Resources */,
+				1355E0041F00B50C00E581C6 /* Assets.xcassets in Resources */,
+				1355E0021F00B50C00E581C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1355E00B1F00B50C00E581C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1355E0161F00B50C00E581C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1355DFF51F00B50C00E581C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1355E06F1F0107C100E581C6 /* DropListView.swift in Sources */,
+				1355DFFF1F00B50C00E581C6 /* ViewController.swift in Sources */,
+				1355DFFD1F00B50C00E581C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1355E0091F00B50C00E581C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1355E0121F00B50C00E581C6 /* DropListDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1355E0141F00B50C00E581C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1355E01D1F00B50C00E581C6 /* DropListDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1355E00F1F00B50C00E581C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1355DFF81F00B50C00E581C6 /* DropListDemo */;
+			targetProxy = 1355E00E1F00B50C00E581C6 /* PBXContainerItemProxy */;
+		};
+		1355E01A1F00B50C00E581C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1355DFF81F00B50C00E581C6 /* DropListDemo */;
+			targetProxy = 1355E0191F00B50C00E581C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1355E0001F00B50C00E581C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1355E0011F00B50C00E581C6 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../DropListDemo;
+			sourceTree = "<group>";
+		};
+		1355E0051F00B50C00E581C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1355E0061F00B50C00E581C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../DropListDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1355E01F1F00B50C00E581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1355E0201F00B50C00E581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1355E0221F00B50C00E581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropListDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.DropListDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1355E0231F00B50C00E581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropListDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.DropListDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1355E0251F00B50C00E581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropListDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.DropListDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropListDemo.app/DropListDemo";
+			};
+			name = Debug;
+		};
+		1355E0261F00B50C00E581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropListDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.DropListDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropListDemo.app/DropListDemo";
+			};
+			name = Release;
+		};
+		1355E0281F00B50C00E581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DropListDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.DropListDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DropListDemo;
+			};
+			name = Debug;
+		};
+		1355E0291F00B50C00E581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DropListDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.DropListDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DropListDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1355DFF41F00B50C00E581C6 /* Build configuration list for PBXProject "DropListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1355E01F1F00B50C00E581C6 /* Debug */,
+				1355E0201F00B50C00E581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1355E0211F00B50C00E581C6 /* Build configuration list for PBXNativeTarget "DropListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1355E0221F00B50C00E581C6 /* Debug */,
+				1355E0231F00B50C00E581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1355E0241F00B50C00E581C6 /* Build configuration list for PBXNativeTarget "DropListDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1355E0251F00B50C00E581C6 /* Debug */,
+				1355E0261F00B50C00E581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1355E0271F00B50C00E581C6 /* Build configuration list for PBXNativeTarget "DropListDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1355E0281F00B50C00E581C6 /* Debug */,
+				1355E0291F00B50C00E581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1355DFF11F00B50C00E581C6 /* Project object */;
+}
