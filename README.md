@@ -13,7 +13,7 @@ print(str)
 }
 //tabWidth:下拉列表的宽度 默认是140
 dropList.tabWidth = 150
-//列表的便宜位置。 默认是0  即中间位置
+//列表的偏移位置。 默认是0  即中间位置
 dropList.tabOffset = 80
 //弹出下拉列表
 dropList.showList()
